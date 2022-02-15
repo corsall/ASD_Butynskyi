@@ -95,13 +95,15 @@ public class lab1 {
         else{
             System.out.print("Сannot be moved");
         }
+        
     }
 
     public static float getCorrectNumber(){
-        Scanner scan = new Scanner(System.in);
+        final Scanner scan = new Scanner(System.in);
 
         while(!scan.hasNextFloat()) scan.next();
         float x = scan.nextFloat();
+        scan.close();
         return x;
     }
 }
