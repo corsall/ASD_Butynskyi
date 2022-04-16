@@ -1,7 +1,6 @@
 package Lab5;
 
 import java.util.LinkedList;
-import java.util.ListIterator;
 import java.util.Scanner;
 
 public class lab5 {
