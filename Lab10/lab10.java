@@ -44,7 +44,7 @@ class lab10 {
         // If you want to calculate distance from source to
         // a particular target, you can return
         // distance[target]
-        System.out.println("Enter Point:");
+        System.out.println("Enter Finish Point:");
 
         return distance[in.nextInt()];
     }
